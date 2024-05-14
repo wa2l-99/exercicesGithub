@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './hello-word.component.scss'
 })
 export class HelloWordComponent {
+  msg : string = "Hello world from bordeaux"
 
+  constructor(){}
 }
